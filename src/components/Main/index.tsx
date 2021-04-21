@@ -1,7 +1,9 @@
+import * as S from './styles';
+
 const Main = () => (
-  <main>
-    <h1>next js</h1>
-  </main>
+  <S.Wrapper>
+    <S.Title>Next JS - Boilerplate</S.Title>
+  </S.Wrapper>
 );
 
 export default Main;
